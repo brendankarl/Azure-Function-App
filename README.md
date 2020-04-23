@@ -1,4 +1,4 @@
-## Function App ##
+## Azure Function App ##
 
 **WorkoutGenerator**
 
