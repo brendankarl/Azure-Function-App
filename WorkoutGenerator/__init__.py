@@ -28,7 +28,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             
     else:
         return func.HttpResponse(
-             "Please pass a number of exercises in the query string",
+             "Please pass the number of exercises required in the query string",
              status_code=400
         )
 
