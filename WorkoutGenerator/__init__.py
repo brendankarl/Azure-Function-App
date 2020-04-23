@@ -15,7 +15,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
             exercises = req_body.get('exercises')
 
     if exercises:
-        
         exerciselist = ['50 Star Jumps','20 Crunches','30 Squats','50 Press Ups','1 Min Wall Sit','10 Burpees','20 Arm Circles',\
         '20 Squats','30 Star Jumps','15 Crunches','10 Press Ups','2 Min Wall Sit','20 Burpees','40 Star Jumps','25 Burpees',\
         '15 Arm Circles','30 Crunches','15 Press Ups','30 Burpees','15 Squats','30 Sec Arm Circles','2 Min Wall Sit','20 Burpees',\
